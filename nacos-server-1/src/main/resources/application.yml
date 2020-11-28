@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alibaba:
+      seata:
+        tx-service-group: ycs_tx_group
+  application:
+    name: server-1
+  datasource:
+    url: jdbc:mysql://118.24.126.49:3306/test
+    username: root
+    password: ycs@1996515
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 7998
+seata:
+  config:
+    type: nacos
+    nacos:
+      server-addr: 127.0.0.1:8848
+      group: "DEFAULT_GROUP"
+      namespace: ""

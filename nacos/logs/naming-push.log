@@ -1,0 +1,608 @@
+2020-11-28 11:09:23,258 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 11:32:11,122 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 11:37:48,708 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 11:37:54,501 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 11:51:34,312 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 11:52:49,873 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 11:52:49,894 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:60918, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,60918,80071133996800
+
+2020-11-28 11:52:49,896 INFO send udp packet: 192.168.1.202,60918,80071133996800
+
+2020-11-28 11:52:49,965 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 11:52:50,100 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 11:52:59,898 INFO retry to push data, key: 192.168.1.202,60918,80071133996800
+
+2020-11-28 11:52:59,898 INFO send udp packet: 192.168.1.202,60918,80071133996800
+
+2020-11-28 11:53:09,900 INFO retry to push data, key: 192.168.1.202,60918,80071133996800
+
+2020-11-28 11:53:09,900 WARN max re-push times reached, retry times 2, key: 192.168.1.202,60918,80071133996800
+
+2020-11-28 11:58:45,787 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 11:59:34,869 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 11:59:38,920 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 13:10:57,632 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 13:10:57,632 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:10:57,633 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:10:58,307 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 13:10:59,058 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:11:00,357 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:11:01,767 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 13:18:00,941 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:18:06,812 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:19:25,722 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:19:31,870 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:26:51,178 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:26:52,577 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 13:26:53,531 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:27:04,846 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:27:11,459 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:27:13,060 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 13:28:05,665 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:28:10,615 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:29:24,767 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:29:24,836 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:29:24,910 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 13:29:46,942 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:29:57,408 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:30:01,029 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 13:37:32,914 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:37:38,968 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:37:52,564 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:38:00,219 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:40:18,746 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 13:40:33,754 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 13:40:58,982 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 13:41:21,493 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:41:29,493 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:41:44,965 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:41:45,039 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:41:45,116 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 13:41:52,798 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:42:54,772 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:55:24,247 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:55:24,324 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:55:31,387 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 13:55:49,642 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 13:56:14,074 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 14:05:44,360 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:05:51,259 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 14:05:52,208 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:05:53,011 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 14:07:36,604 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 14:07:42,508 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:07:50,044 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:09:24,983 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:09:32,582 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:09:40,221 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 14:10:09,173 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:10:16,779 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:14:14,348 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 14:14:29,356 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 14:14:40,526 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 14:15:00,358 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:15:07,904 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:45:24,551 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 14:47:30,383 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 14:56:23,071 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:56:50,682 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 14:57:02,733 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 14:57:26,196 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 14:57:36,554 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 14:57:44,454 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 14:57:50,079 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 14:59:59,701 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 14:59:59,744 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:59030, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,59030,91301076655500
+
+2020-11-28 14:59:59,745 INFO send udp packet: 192.168.1.202,59030,91301076655500
+
+2020-11-28 14:59:59,759 INFO received ack: {"type": "push-ack", "lastRefTime":"91301076655500", "data":""} from: 192.168.1.202:59030, cost: 14 ms, unacked: 0, total push: 1
+
+2020-11-28 15:00:08,687 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 15:00:08,687 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:59030, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,59030,91310060527900
+
+2020-11-28 15:00:08,687 INFO send udp packet: 192.168.1.202,59030,91310060527900
+
+2020-11-28 15:00:08,696 INFO received ack: {"type": "push-ack", "lastRefTime":"91310060527900", "data":""} from: 192.168.1.202:59030, cost: 9 ms, unacked: 0, total push: 2
+
+2020-11-28 15:00:13,634 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:00:22,533 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:13:25,913 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:13:33,993 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 15:13:34,393 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:13:40,170 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:13:44,605 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 15:13:50,337 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:14:50,341 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:14:56,533 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:23:23,598 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:23:28,863 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:23:37,762 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 15:23:46,599 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 15:23:49,086 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:23:57,744 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:25:39,493 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:25:42,313 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 15:25:45,579 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:25:46,354 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:25:52,358 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 15:25:54,621 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:34:46,940 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:34:52,313 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 15:34:52,313 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:59351, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,59351,93393686938100
+
+2020-11-28 15:34:52,313 INFO send udp packet: 192.168.1.202,59351,93393686938100
+
+2020-11-28 15:34:53,518 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:34:55,969 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:35:02,316 INFO retry to push data, key: 192.168.1.202,59351,93393686938100
+
+2020-11-28 15:35:02,316 INFO send udp packet: 192.168.1.202,59351,93393686938100
+
+2020-11-28 15:35:12,319 INFO retry to push data, key: 192.168.1.202,59351,93393686938100
+
+2020-11-28 15:35:12,319 WARN max re-push times reached, retry times 2, key: 192.168.1.202,59351,93393686938100
+
+2020-11-28 15:49:16,047 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 15:50:06,486 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 15:51:46,372 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:51:48,803 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:52:20,992 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 15:52:27,060 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:13:28,419 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:13:34,697 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:18:31,910 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:20:37,687 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:34:45,658 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:34:48,746 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 16:34:48,747 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:52380, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,52380,96990119914300
+
+2020-11-28 16:34:48,747 INFO send udp packet: 192.168.1.202,52380,96990119914300
+
+2020-11-28 16:34:52,194 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 16:34:52,195 INFO serviceName: DEFAULT_GROUP@@server-2 changed, schedule push for: 192.168.1.202:52380, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,52380,96993568467100
+
+2020-11-28 16:34:52,195 INFO send udp packet: 192.168.1.202,52380,96993568467100
+
+2020-11-28 16:34:55,252 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:34:58,583 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 16:34:58,748 INFO retry to push data, key: 192.168.1.202,52380,96990119914300
+
+2020-11-28 16:34:58,748 INFO send udp packet: 192.168.1.202,52380,96990119914300
+
+2020-11-28 16:35:01,158 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 16:35:02,196 INFO retry to push data, key: 192.168.1.202,52380,96993568467100
+
+2020-11-28 16:35:02,196 INFO send udp packet: 192.168.1.202,52380,96993568467100
+
+2020-11-28 16:35:08,750 INFO retry to push data, key: 192.168.1.202,52380,96990119914300
+
+2020-11-28 16:35:08,750 WARN max re-push times reached, retry times 2, key: 192.168.1.202,52380,96990119914300
+
+2020-11-28 16:35:12,199 INFO retry to push data, key: 192.168.1.202,52380,96993568467100
+
+2020-11-28 16:35:12,199 WARN max re-push times reached, retry times 2, key: 192.168.1.202,52380,96993568467100
+
+2020-11-28 16:35:32,911 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:35:41,247 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:36:15,793 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:36:24,146 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:38:20,655 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:38:28,817 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:46:59,269 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:47:07,455 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 16:48:46,839 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 16:48:46,839 INFO serviceName: DEFAULT_GROUP@@server-2 changed, schedule push for: 192.168.1.202:59673, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,59673,97828212698200
+
+2020-11-28 16:48:46,839 INFO send udp packet: 192.168.1.202,59673,97828212698200
+
+2020-11-28 16:48:46,850 INFO received ack: {"type": "push-ack", "lastRefTime":"97828212698200", "data":""} from: 192.168.1.202:59673, cost: 11 ms, unacked: 0, total push: 6
+
+2020-11-28 17:05:59,748 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:05:59,748 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:59673, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,59673,98861121978700
+
+2020-11-28 17:05:59,748 INFO send udp packet: 192.168.1.202,59673,98861121978700
+
+2020-11-28 17:05:59,755 INFO received ack: {"type": "push-ack", "lastRefTime":"98861121978700", "data":""} from: 192.168.1.202:59673, cost: 7 ms, unacked: 0, total push: 7
+
+2020-11-28 17:06:01,460 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:06:13,942 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:06:27,050 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:06:29,949 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:08:09,612 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:08:15,507 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:08:19,164 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:08:25,193 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:19:04,135 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:19:04,135 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:63573, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,63573,99645508408900
+
+2020-11-28 17:19:04,135 INFO send udp packet: 192.168.1.202,63573,99645508408900
+
+2020-11-28 17:19:04,145 INFO received ack: {"type": "push-ack", "lastRefTime":"99645508408900", "data":""} from: 192.168.1.202:63573, cost: 10 ms, unacked: 0, total push: 8
+
+2020-11-28 17:19:05,463 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:19:06,858 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:19:06,858 INFO serviceName: DEFAULT_GROUP@@server-2 changed, schedule push for: 192.168.1.202:63573, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,63573,99648231726100
+
+2020-11-28 17:19:06,858 INFO send udp packet: 192.168.1.202,63573,99648231726100
+
+2020-11-28 17:19:16,860 INFO retry to push data, key: 192.168.1.202,63573,99648231726100
+
+2020-11-28 17:19:16,860 INFO send udp packet: 192.168.1.202,63573,99648231726100
+
+2020-11-28 17:19:26,861 INFO retry to push data, key: 192.168.1.202,63573,99648231726100
+
+2020-11-28 17:19:26,861 WARN max re-push times reached, retry times 2, key: 192.168.1.202,63573,99648231726100
+
+2020-11-28 17:20:46,629 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:20:55,179 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:20:58,143 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:31:40,646 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:31:49,575 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:35:34,619 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:35:34,619 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:61996, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,61996,100635993379200
+
+2020-11-28 17:35:34,619 INFO send udp packet: 192.168.1.202,61996,100635993379200
+
+2020-11-28 17:35:34,623 INFO received ack: {"type": "push-ack", "lastRefTime":"100635993379200", "data":""} from: 192.168.1.202:61996, cost: 4 ms, unacked: 0, total push: 10
+
+2020-11-28 17:35:38,720 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:35:44,867 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:35:47,867 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:38:13,800 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:38:17,329 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:38:17,330 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:60013, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,60013,100798703186300
+
+2020-11-28 17:38:17,330 INFO send udp packet: 192.168.1.202,60013,100798703186300
+
+2020-11-28 17:38:20,851 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:38:20,853 INFO serviceName: DEFAULT_GROUP@@server-2 changed, schedule push for: 192.168.1.202:60013, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,60013,100802225206100
+
+2020-11-28 17:38:20,853 INFO send udp packet: 192.168.1.202,60013,100802225206100
+
+2020-11-28 17:38:22,749 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:38:27,332 INFO retry to push data, key: 192.168.1.202,60013,100798703186300
+
+2020-11-28 17:38:27,332 INFO send udp packet: 192.168.1.202,60013,100798703186300
+
+2020-11-28 17:38:27,417 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:38:30,748 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:38:30,855 INFO retry to push data, key: 192.168.1.202,60013,100802225206100
+
+2020-11-28 17:38:30,855 INFO send udp packet: 192.168.1.202,60013,100802225206100
+
+2020-11-28 17:38:37,335 INFO retry to push data, key: 192.168.1.202,60013,100798703186300
+
+2020-11-28 17:38:37,335 WARN max re-push times reached, retry times 2, key: 192.168.1.202,60013,100798703186300
+
+2020-11-28 17:38:40,858 INFO retry to push data, key: 192.168.1.202,60013,100802225206100
+
+2020-11-28 17:38:40,858 WARN max re-push times reached, retry times 2, key: 192.168.1.202,60013,100802225206100
+
+2020-11-28 17:43:01,770 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 17:43:15,406 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 17:43:20,397 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 17:44:57,391 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:44:57,430 INFO serviceName: DEFAULT_GROUP@@server-2 changed, schedule push for: 192.168.1.202:63712, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,63712,101198781706200
+
+2020-11-28 17:44:57,430 INFO send udp packet: 192.168.1.202,63712,101198781706200
+
+2020-11-28 17:44:57,431 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:44:57,445 INFO received ack: {"type": "push-ack", "lastRefTime":"101198781706200", "data":""} from: 192.168.1.202:63712, cost: 15 ms, unacked: 0, total push: 1
+
+2020-11-28 17:45:00,280 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 17:45:57,156 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 17:46:08,729 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 17:46:18,187 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:46:22,219 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:47:31,257 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 17:48:56,915 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:48:56,955 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,101438289727600
+
+2020-11-28 17:48:56,957 INFO send udp packet: 192.168.1.202,51888,101438289727600
+
+2020-11-28 17:48:56,978 INFO received ack: {"type": "push-ack", "lastRefTime":"101438289727600", "data":""} from: 192.168.1.202:51888, cost: 21 ms, unacked: 0, total push: 1
+
+2020-11-28 17:49:00,998 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:49:01,000 INFO serviceName: DEFAULT_GROUP@@server-2 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,101442373887900
+
+2020-11-28 17:49:01,000 INFO send udp packet: 192.168.1.202,51888,101442373887900
+
+2020-11-28 17:49:01,013 INFO received ack: {"type": "push-ack", "lastRefTime":"101442373887900", "data":""} from: 192.168.1.202:51888, cost: 13 ms, unacked: 0, total push: 2
+
+2020-11-28 17:49:08,929 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:49:08,929 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,101450303251000
+
+2020-11-28 17:49:08,929 INFO send udp packet: 192.168.1.202,51888,101450303251000
+
+2020-11-28 17:49:08,940 INFO received ack: {"type": "push-ack", "lastRefTime":"101450303251000", "data":""} from: 192.168.1.202:51888, cost: 11 ms, unacked: 0, total push: 3
+
+2020-11-28 17:49:12,106 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:49:12,106 INFO serviceName: DEFAULT_GROUP@@server-2 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,101453480290100
+
+2020-11-28 17:49:12,106 INFO send udp packet: 192.168.1.202,51888,101453480290100
+
+2020-11-28 17:49:12,113 INFO received ack: {"type": "push-ack", "lastRefTime":"101453480290100", "data":""} from: 192.168.1.202:51888, cost: 7 ms, unacked: 0, total push: 4
+
+2020-11-28 17:49:39,286 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:49:39,289 INFO serviceName: DEFAULT_GROUP@@server-2 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,101480660173700
+
+2020-11-28 17:49:39,289 INFO send udp packet: 192.168.1.202,51888,101480660173700
+
+2020-11-28 17:49:39,302 INFO received ack: {"type": "push-ack", "lastRefTime":"101480660173700", "data":""} from: 192.168.1.202:51888, cost: 13 ms, unacked: 0, total push: 5
+
+2020-11-28 17:49:43,296 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:49:43,297 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,101484669761100
+
+2020-11-28 17:49:43,297 INFO send udp packet: 192.168.1.202,51888,101484669761100
+
+2020-11-28 17:49:43,307 INFO received ack: {"type": "push-ack", "lastRefTime":"101484669761100", "data":""} from: 192.168.1.202:51888, cost: 10 ms, unacked: 0, total push: 6
+
+2020-11-28 17:49:50,552 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 17:49:50,552 INFO serviceName: DEFAULT_GROUP@@server-2 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,101491926285300
+
+2020-11-28 17:49:50,552 INFO send udp packet: 192.168.1.202,51888,101491926285300
+
+2020-11-28 17:49:50,559 INFO received ack: {"type": "push-ack", "lastRefTime":"101491926285300", "data":""} from: 192.168.1.202:51888, cost: 7 ms, unacked: 0, total push: 7
+
+2020-11-28 17:49:53,561 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 17:49:53,561 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,101494934529700
+
+2020-11-28 17:49:53,561 INFO send udp packet: 192.168.1.202,51888,101494934529700
+
+2020-11-28 17:49:53,568 INFO received ack: {"type": "push-ack", "lastRefTime":"101494934529700", "data":""} from: 192.168.1.202:51888, cost: 7 ms, unacked: 0, total push: 8
+
+2020-11-28 18:21:03,364 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 18:21:03,366 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,103364739076800
+
+2020-11-28 18:21:03,366 INFO send udp packet: 192.168.1.202,51888,103364739076800
+
+2020-11-28 18:21:03,368 INFO received ack: {"type": "push-ack", "lastRefTime":"103364739076800", "data":""} from: 192.168.1.202:51888, cost: 2 ms, unacked: 0, total push: 9
+
+2020-11-28 18:21:11,722 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 18:21:11,722 INFO serviceName: DEFAULT_GROUP@@server-1 changed, schedule push for: 192.168.1.202:51888, agent: Nacos-Java-Client:v1.2.1, key: 192.168.1.202,51888,103373095970500
+
+2020-11-28 18:21:11,722 INFO send udp packet: 192.168.1.202,51888,103373095970500
+
+2020-11-28 18:21:11,732 INFO received ack: {"type": "push-ack", "lastRefTime":"103373095970500", "data":""} from: 192.168.1.202:51888, cost: 10 ms, unacked: 0, total push: 10
+
+2020-11-28 18:21:15,532 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:21:23,669 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:22:43,775 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:22:52,078 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:28:12,874 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:28:21,260 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:29:00,051 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:29:08,702 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:29:42,429 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:29:49,993 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:30:05,115 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 18:30:08,808 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 18:30:15,283 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 18:30:18,323 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 18:33:53,977 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 18:35:28,475 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:35:37,245 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:43:44,874 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 18:48:29,132 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:48:31,469 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 18:48:34,382 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 18:48:37,932 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 18:48:38,899 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:48:41,584 INFO DEFAULT_GROUP@@server-1 is changed, add it to push queue.
+
+2020-11-28 18:48:43,641 INFO DEFAULT_GROUP@@server-2 is changed, add it to push queue.
+
+2020-11-28 18:48:53,034 INFO DEFAULT_GROUP@@seata-server is changed, add it to push queue.
+
+2020-11-28 18:51:12,441 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:51:20,322 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+
+2020-11-28 18:55:56,162 INFO DEFAULT_GROUP@@client is changed, add it to push queue.
+

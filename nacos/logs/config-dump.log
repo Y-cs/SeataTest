@@ -1,0 +1,280 @@
+2020-11-28 17:44:53,095 INFO [dump-all-ok] transport.type+DEFAULT_GROUP, 1606552422742, length=3, md5=b136ef5f6a01d816991fe3cf7a6ac763
+
+2020-11-28 17:44:53,097 INFO [dump-all-ok] transport.server+DEFAULT_GROUP, 1606552423138, length=3, md5=b6d9dfc0fb54277321cebc0fff55df2f
+
+2020-11-28 17:44:53,097 INFO [dump-all-ok] transport.heartbeat+DEFAULT_GROUP, 1606552423524, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2020-11-28 17:44:53,097 INFO [dump-all-ok] transport.enableClientBatchSendRequest+DEFAULT_GROUP, 1606552423929, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,097 INFO [dump-all-ok] transport.threadFactory.bossThreadPrefix+DEFAULT_GROUP, 1606552424325, length=9, md5=0f8db59a3b7f2823f38a70c308361836
+
+2020-11-28 17:44:53,098 INFO [dump-all-ok] transport.threadFactory.workerThreadPrefix+DEFAULT_GROUP, 1606552424755, length=20, md5=a78ec7ef5d1631754c4e72ae8a3e9205
+
+2020-11-28 17:44:53,098 INFO [dump-all-ok] transport.threadFactory.serverExecutorThreadPrefix+DEFAULT_GROUP, 1606552425154, length=21, md5=11a36309f3d9df84fa8b59cf071fa2da
+
+2020-11-28 17:44:53,098 INFO [dump-all-ok] transport.threadFactory.shareBossWorker+DEFAULT_GROUP, 1606552425581, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,098 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadPrefix+DEFAULT_GROUP, 1606552425968, length=19, md5=cd7ec5a06541e75f5a7913752322c3af
+
+2020-11-28 17:44:53,098 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadSize+DEFAULT_GROUP, 1606552426355, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2020-11-28 17:44:53,098 INFO [dump-all-ok] transport.threadFactory.clientWorkerThreadPrefix+DEFAULT_GROUP, 1606552426747, length=23, md5=61cf4e69a56354cf72f46dc86414a57e
+
+2020-11-28 17:44:53,098 INFO [dump-all-ok] transport.threadFactory.bossThreadSize+DEFAULT_GROUP, 1606552427161, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2020-11-28 17:44:53,098 INFO [dump-all-ok] transport.threadFactory.workerThreadSize+DEFAULT_GROUP, 1606552427549, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] transport.shutdown.wait+DEFAULT_GROUP, 1606552427936, length=1, md5=eccbc87e4b5ce2fe28308fd9f2a7baf3
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] service.vgroupMapping.client_tx_group+DEFAULT_GROUP, 1606552428332, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] service.vgroupMapping.server1_tx_group+DEFAULT_GROUP, 1606552428700, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] service.vgroupMapping.server2_tx_group+DEFAULT_GROUP, 1606552429120, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] service.default.grouplist+DEFAULT_GROUP, 1606552429517, length=14, md5=c32ce0d3e264525dcdada751f98143a3
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] service.enableDegrade+DEFAULT_GROUP, 1606552429917, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] service.disableGlobalTransaction+DEFAULT_GROUP, 1606552430314, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] client.rm.asyncCommitBufferLimit+DEFAULT_GROUP, 1606552430721, length=5, md5=b7a782741f667201b54880c925faec4b
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] client.rm.lock.retryInterval+DEFAULT_GROUP, 1606552431123, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] client.rm.lock.retryTimes+DEFAULT_GROUP, 1606552431513, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] client.rm.lock.retryPolicyBranchRollbackOnConflict+DEFAULT_GROUP, 1606552431902, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] client.rm.reportRetryCount+DEFAULT_GROUP, 1606552432292, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] client.rm.tableMetaCheckEnable+DEFAULT_GROUP, 1606552432694, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,099 INFO [dump-all-ok] client.rm.sqlParserType+DEFAULT_GROUP, 1606552433083, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] client.rm.reportSuccessEnable+DEFAULT_GROUP, 1606552433499, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] client.rm.sagaBranchRegisterEnable+DEFAULT_GROUP, 1606552433909, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] client.tm.commitRetryCount+DEFAULT_GROUP, 1606552434308, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] client.tm.rollbackRetryCount+DEFAULT_GROUP, 1606552434736, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] client.tm.defaultGlobalTransactionTimeout+DEFAULT_GROUP, 1606552435134, length=5, md5=2b4226dd7ed6eb2d419b881f3ae9c97c
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] client.tm.degradeCheck+DEFAULT_GROUP, 1606552435522, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] client.tm.degradeCheckAllowTimes+DEFAULT_GROUP, 1606552435943, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] client.tm.degradeCheckPeriod+DEFAULT_GROUP, 1606552436334, length=4, md5=08f90c1a417155361a5c4b8d297e0d78
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] store.mode+DEFAULT_GROUP, 1606552436715, length=2, md5=d77d5e503ad1439f585ac494268b351b
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] store.db.datasource+DEFAULT_GROUP, 1606552437115, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] store.db.dbType+DEFAULT_GROUP, 1606552437519, length=5, md5=81c3b080dad537de7e10e0987a4bf52e
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] store.db.driverClassName+DEFAULT_GROUP, 1606552437920, length=21, md5=683cf0c3a5a56cec94dfac94ca16d760
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] store.db.url+DEFAULT_GROUP, 1606552438307, length=37, md5=daa6030abe9d481a6fe5fd11e9e50d28
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] store.db.user+DEFAULT_GROUP, 1606552438719, length=4, md5=63a9f0ea7bb98050796b649e85481845
+
+2020-11-28 17:44:53,100 INFO [dump-all-ok] store.db.password+DEFAULT_GROUP, 1606552439121, length=11, md5=55a8360c2b2cf6743543db9b79b3b23f
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] store.db.minConn+DEFAULT_GROUP, 1606552439497, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] store.db.maxConn+DEFAULT_GROUP, 1606552439945, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] store.db.globalTable+DEFAULT_GROUP, 1606552440334, length=12, md5=8b28fb6bb4c4f984df2709381f8eba2b
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] store.db.branchTable+DEFAULT_GROUP, 1606552440794, length=12, md5=54bcdac38cf62e103fe115bcf46a660c
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] store.db.queryLimit+DEFAULT_GROUP, 1606552441216, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] store.db.lockTable+DEFAULT_GROUP, 1606552441647, length=10, md5=55e0cae3b6dc6696b768db90098b8f2f
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] store.db.maxWait+DEFAULT_GROUP, 1606552442038, length=4, md5=a35fe7f7fe8217b4369a0af4244d1fca
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] server.recovery.committingRetryPeriod+DEFAULT_GROUP, 1606552442437, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] server.recovery.asynCommittingRetryPeriod+DEFAULT_GROUP, 1606552442829, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] server.recovery.rollbackingRetryPeriod+DEFAULT_GROUP, 1606552443199, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] server.recovery.timeoutRetryPeriod+DEFAULT_GROUP, 1606552443601, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] server.maxCommitRetryTimeout+DEFAULT_GROUP, 1606552443978, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] server.maxRollbackRetryTimeout+DEFAULT_GROUP, 1606552444363, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2020-11-28 17:44:53,101 INFO [dump-all-ok] server.rollbackRetryTimeoutUnlockEnable+DEFAULT_GROUP, 1606552444791, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] client.undo.dataValidation+DEFAULT_GROUP, 1606552445186, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] client.undo.logSerialization+DEFAULT_GROUP, 1606552445597, length=7, md5=b41779690b83f182acc67d6388c7bac9
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] client.undo.onlyCareUpdateColumns+DEFAULT_GROUP, 1606552446014, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] server.undo.logSaveDays+DEFAULT_GROUP, 1606552446403, length=1, md5=8f14e45fceea167a5a36dedd4bea2543
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] server.undo.logDeletePeriod+DEFAULT_GROUP, 1606552446792, length=8, md5=f4c122804fe9076cb2710f55c3c6e346
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] client.undo.logTable+DEFAULT_GROUP, 1606552447165, length=8, md5=2842d229c24afe9e61437135e8306614
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] log.exceptionRate+DEFAULT_GROUP, 1606552447544, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] transport.serialization+DEFAULT_GROUP, 1606552447960, length=5, md5=b943081c423b9a5416a706524ee05d40
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] transport.compressor+DEFAULT_GROUP, 1606552448345, length=4, md5=334c4a4c42fdb79d7ebc3e73b517e6f8
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] metrics.enabled+DEFAULT_GROUP, 1606552448741, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] metrics.registryType+DEFAULT_GROUP, 1606552449139, length=7, md5=7cf74ca49c304df8150205fc915cd465
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] metrics.exporterList+DEFAULT_GROUP, 1606552449550, length=10, md5=e4f00638b8a10e6994e67af2f832d51c
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] metrics.exporterPrometheusPort+DEFAULT_GROUP, 1606552449938, length=4, md5=7b9dc501afe4ee11c56a4831e20cee71
+
+2020-11-28 17:44:53,102 INFO [dump-all-ok] service.vgroupMapping.ycs_tx_group+DEFAULT_GROUP, 1606555392600, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2020-11-28 17:45:46,690 INFO [dump-all-ok] transport.type+DEFAULT_GROUP, 1606552422742, length=3, md5=b136ef5f6a01d816991fe3cf7a6ac763
+
+2020-11-28 17:45:46,690 INFO [dump-all-ok] transport.server+DEFAULT_GROUP, 1606552423138, length=3, md5=b6d9dfc0fb54277321cebc0fff55df2f
+
+2020-11-28 17:45:46,690 INFO [dump-all-ok] transport.heartbeat+DEFAULT_GROUP, 1606552423524, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2020-11-28 17:45:46,690 INFO [dump-all-ok] transport.enableClientBatchSendRequest+DEFAULT_GROUP, 1606552423929, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,690 INFO [dump-all-ok] transport.threadFactory.bossThreadPrefix+DEFAULT_GROUP, 1606552424325, length=9, md5=0f8db59a3b7f2823f38a70c308361836
+
+2020-11-28 17:45:46,690 INFO [dump-all-ok] transport.threadFactory.workerThreadPrefix+DEFAULT_GROUP, 1606552424755, length=20, md5=a78ec7ef5d1631754c4e72ae8a3e9205
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] transport.threadFactory.serverExecutorThreadPrefix+DEFAULT_GROUP, 1606552425154, length=21, md5=11a36309f3d9df84fa8b59cf071fa2da
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] transport.threadFactory.shareBossWorker+DEFAULT_GROUP, 1606552425581, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadPrefix+DEFAULT_GROUP, 1606552425968, length=19, md5=cd7ec5a06541e75f5a7913752322c3af
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] transport.threadFactory.clientSelectorThreadSize+DEFAULT_GROUP, 1606552426355, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] transport.threadFactory.clientWorkerThreadPrefix+DEFAULT_GROUP, 1606552426747, length=23, md5=61cf4e69a56354cf72f46dc86414a57e
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] transport.threadFactory.bossThreadSize+DEFAULT_GROUP, 1606552427161, length=1, md5=c4ca4238a0b923820dcc509a6f75849b
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] transport.threadFactory.workerThreadSize+DEFAULT_GROUP, 1606552427549, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] transport.shutdown.wait+DEFAULT_GROUP, 1606552427936, length=1, md5=eccbc87e4b5ce2fe28308fd9f2a7baf3
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] service.vgroupMapping.client_tx_group+DEFAULT_GROUP, 1606552428332, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2020-11-28 17:45:46,691 INFO [dump-all-ok] service.vgroupMapping.server1_tx_group+DEFAULT_GROUP, 1606552428700, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] service.vgroupMapping.server2_tx_group+DEFAULT_GROUP, 1606552429120, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] service.default.grouplist+DEFAULT_GROUP, 1606552429517, length=14, md5=c32ce0d3e264525dcdada751f98143a3
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] service.enableDegrade+DEFAULT_GROUP, 1606552429917, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] service.disableGlobalTransaction+DEFAULT_GROUP, 1606552430314, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.rm.asyncCommitBufferLimit+DEFAULT_GROUP, 1606552430721, length=5, md5=b7a782741f667201b54880c925faec4b
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.rm.lock.retryInterval+DEFAULT_GROUP, 1606552431123, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.rm.lock.retryTimes+DEFAULT_GROUP, 1606552431513, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.rm.lock.retryPolicyBranchRollbackOnConflict+DEFAULT_GROUP, 1606552431902, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.rm.reportRetryCount+DEFAULT_GROUP, 1606552432292, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.rm.tableMetaCheckEnable+DEFAULT_GROUP, 1606552432694, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.rm.sqlParserType+DEFAULT_GROUP, 1606552433083, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.rm.reportSuccessEnable+DEFAULT_GROUP, 1606552433499, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.rm.sagaBranchRegisterEnable+DEFAULT_GROUP, 1606552433909, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.tm.commitRetryCount+DEFAULT_GROUP, 1606552434308, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.tm.rollbackRetryCount+DEFAULT_GROUP, 1606552434736, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2020-11-28 17:45:46,692 INFO [dump-all-ok] client.tm.defaultGlobalTransactionTimeout+DEFAULT_GROUP, 1606552435134, length=5, md5=2b4226dd7ed6eb2d419b881f3ae9c97c
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] client.tm.degradeCheck+DEFAULT_GROUP, 1606552435522, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] client.tm.degradeCheckAllowTimes+DEFAULT_GROUP, 1606552435943, length=2, md5=d3d9446802a44259755d38e6d163e820
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] client.tm.degradeCheckPeriod+DEFAULT_GROUP, 1606552436334, length=4, md5=08f90c1a417155361a5c4b8d297e0d78
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.mode+DEFAULT_GROUP, 1606552436715, length=2, md5=d77d5e503ad1439f585ac494268b351b
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.db.datasource+DEFAULT_GROUP, 1606552437115, length=5, md5=3d650fb8a5df01600281d48c47c9fa60
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.db.dbType+DEFAULT_GROUP, 1606552437519, length=5, md5=81c3b080dad537de7e10e0987a4bf52e
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.db.driverClassName+DEFAULT_GROUP, 1606552437920, length=21, md5=683cf0c3a5a56cec94dfac94ca16d760
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.db.url+DEFAULT_GROUP, 1606552438307, length=37, md5=daa6030abe9d481a6fe5fd11e9e50d28
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.db.user+DEFAULT_GROUP, 1606552438719, length=4, md5=63a9f0ea7bb98050796b649e85481845
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.db.password+DEFAULT_GROUP, 1606552439121, length=11, md5=55a8360c2b2cf6743543db9b79b3b23f
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.db.minConn+DEFAULT_GROUP, 1606552439497, length=1, md5=e4da3b7fbbce2345d7772b0674a318d5
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.db.maxConn+DEFAULT_GROUP, 1606552439945, length=2, md5=34173cb38f07f89ddbebc2ac9128303f
+
+2020-11-28 17:45:46,693 INFO [dump-all-ok] store.db.globalTable+DEFAULT_GROUP, 1606552440334, length=12, md5=8b28fb6bb4c4f984df2709381f8eba2b
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] store.db.branchTable+DEFAULT_GROUP, 1606552440794, length=12, md5=54bcdac38cf62e103fe115bcf46a660c
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] store.db.queryLimit+DEFAULT_GROUP, 1606552441216, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] store.db.lockTable+DEFAULT_GROUP, 1606552441647, length=10, md5=55e0cae3b6dc6696b768db90098b8f2f
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] store.db.maxWait+DEFAULT_GROUP, 1606552442038, length=4, md5=a35fe7f7fe8217b4369a0af4244d1fca
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] server.recovery.committingRetryPeriod+DEFAULT_GROUP, 1606552442437, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] server.recovery.asynCommittingRetryPeriod+DEFAULT_GROUP, 1606552442829, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] server.recovery.rollbackingRetryPeriod+DEFAULT_GROUP, 1606552443199, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] server.recovery.timeoutRetryPeriod+DEFAULT_GROUP, 1606552443601, length=4, md5=a9b7ba70783b617e9998dc4dd82eb3c5
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] server.maxCommitRetryTimeout+DEFAULT_GROUP, 1606552443978, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] server.maxRollbackRetryTimeout+DEFAULT_GROUP, 1606552444363, length=2, md5=6bb61e3b7bce0931da574d19d1d82c88
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] server.rollbackRetryTimeoutUnlockEnable+DEFAULT_GROUP, 1606552444791, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] client.undo.dataValidation+DEFAULT_GROUP, 1606552445186, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] client.undo.logSerialization+DEFAULT_GROUP, 1606552445597, length=7, md5=b41779690b83f182acc67d6388c7bac9
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] client.undo.onlyCareUpdateColumns+DEFAULT_GROUP, 1606552446014, length=4, md5=b326b5062b2f0e69046810717534cb09
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] server.undo.logSaveDays+DEFAULT_GROUP, 1606552446403, length=1, md5=8f14e45fceea167a5a36dedd4bea2543
+
+2020-11-28 17:45:46,694 INFO [dump-all-ok] server.undo.logDeletePeriod+DEFAULT_GROUP, 1606552446792, length=8, md5=f4c122804fe9076cb2710f55c3c6e346
+
+2020-11-28 17:45:46,695 INFO [dump-all-ok] client.undo.logTable+DEFAULT_GROUP, 1606552447165, length=8, md5=2842d229c24afe9e61437135e8306614
+
+2020-11-28 17:45:46,695 INFO [dump-all-ok] log.exceptionRate+DEFAULT_GROUP, 1606552447544, length=3, md5=f899139df5e1059396431415e770c6dd
+
+2020-11-28 17:45:46,695 INFO [dump-all-ok] transport.serialization+DEFAULT_GROUP, 1606552447960, length=5, md5=b943081c423b9a5416a706524ee05d40
+
+2020-11-28 17:45:46,695 INFO [dump-all-ok] transport.compressor+DEFAULT_GROUP, 1606552448345, length=4, md5=334c4a4c42fdb79d7ebc3e73b517e6f8
+
+2020-11-28 17:45:46,695 INFO [dump-all-ok] metrics.enabled+DEFAULT_GROUP, 1606552448741, length=5, md5=68934a3e9455fa72420237eb05902327
+
+2020-11-28 17:45:46,695 INFO [dump-all-ok] metrics.registryType+DEFAULT_GROUP, 1606552449139, length=7, md5=7cf74ca49c304df8150205fc915cd465
+
+2020-11-28 17:45:46,695 INFO [dump-all-ok] metrics.exporterList+DEFAULT_GROUP, 1606552449550, length=10, md5=e4f00638b8a10e6994e67af2f832d51c
+
+2020-11-28 17:45:46,695 INFO [dump-all-ok] metrics.exporterPrometheusPort+DEFAULT_GROUP, 1606552449938, length=4, md5=7b9dc501afe4ee11c56a4831e20cee71
+
+2020-11-28 17:45:46,695 INFO [dump-all-ok] service.vgroupMapping.ycs_tx_group+DEFAULT_GROUP, 1606555392600, length=7, md5=c21f969b5f03d33d43e04f8f136e7682
+

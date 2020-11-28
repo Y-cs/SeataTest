@@ -1,0 +1,830 @@
+2020-11-28 11:09:22,250 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_true_false_default]
+
+2020-11-28 11:09:22,256 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 11:32:10,116 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_true_false_default]
+
+2020-11-28 11:32:10,120 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 11:37:47,702 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 11:37:47,702 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 11:37:53,500 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 11:37:53,500 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 11:51:33,311 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 11:51:33,311 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 11:52:48,871 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 11:52:48,871 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 11:52:48,963 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 11:52:48,963 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 11:52:49,099 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 11:52:49,099 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 11:58:44,786 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 11:58:44,786 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 11:59:33,867 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 11:59:33,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 11:59:37,920 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 11:59:37,920 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 13:10:56,604 INFO {POS} {IP-DISABLED} valid: 192.168.1.202:7999@DEFAULT@DEFAULT_GROUP@@client, region: unknown, msg: client timeout after 15000, last beat: 1606539427187
+
+2020-11-28 13:10:56,604 INFO {POS} {IP-DISABLED} valid: 192.168.1.202:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1606539428609
+
+2020-11-28 13:10:56,604 INFO {POS} {IP-DISABLED} valid: 192.168.1.202:7998@DEFAULT@DEFAULT_GROUP@@server-1, region: unknown, msg: client timeout after 15000, last beat: 1606539425891
+
+2020-11-28 13:10:57,306 INFO {POS} {IP-DISABLED} valid: 192.168.1.202:7997@DEFAULT@DEFAULT_GROUP@@server-2, region: unknown, msg: client timeout after 15000, last beat: 1606539424940
+
+2020-11-28 13:10:57,306 INFO service: DEFAULT_GROUP@@server-2 {POS} {IP-ENABLED} valid: 192.168.1.202:7997@DEFAULT, region: unknown, msg: client beat ok
+
+2020-11-28 13:10:57,326 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_false_false_default]
+
+2020-11-28 13:10:57,326 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2020-11-28 13:10:57,326 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-28 13:10:57,326 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 13:10:57,327 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-28 13:10:57,327 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 13:10:58,058 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:10:58,058 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 13:10:59,339 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:10:59,339 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 13:11:00,764 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_true_false_default]
+
+2020-11-28 13:11:00,765 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 13:17:59,939 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:17:59,939 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 13:18:05,811 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:18:05,811 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 13:19:24,721 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:19:24,721 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 13:19:30,867 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:19:30,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 13:26:50,177 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:26:50,177 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 13:26:51,575 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:26:51,575 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 13:26:52,531 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:26:52,531 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 13:27:03,845 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:27:03,845 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 13:27:10,457 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:27:10,457 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 13:27:12,059 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:27:12,059 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 13:28:04,664 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:28:04,664 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 13:28:09,615 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:28:09,615 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 13:29:23,765 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:29:23,765 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 13:29:23,835 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:29:23,835 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 13:29:23,909 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:29:23,909 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 13:29:45,940 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:29:45,940 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 13:29:56,406 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:29:56,406 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 13:30:00,029 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:30:00,029 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 13:37:31,912 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:37:31,912 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 13:37:37,967 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:37:37,967 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 13:37:51,563 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:37:51,563 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 13:37:59,217 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:37:59,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 13:40:17,744 INFO {POS} {IP-DISABLED} valid: 192.168.1.202:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1606542002080
+
+2020-11-28 13:40:32,753 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_false_false_default]
+
+2020-11-28 13:40:32,753 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2020-11-28 13:40:57,981 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_true_false_default]
+
+2020-11-28 13:40:57,981 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 13:41:20,491 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:41:20,491 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 13:41:28,492 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:41:28,492 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 13:41:43,963 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:41:43,963 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 13:41:44,037 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:41:44,037 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 13:41:44,114 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:41:44,114 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 13:41:51,796 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:41:51,796 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 13:42:53,772 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:42:53,772 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 13:55:23,246 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:55:23,246 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 13:55:23,322 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:55:23,322 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 13:55:30,385 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:55:30,385 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 13:55:48,640 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:55:48,640 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 13:56:13,074 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 13:56:13,074 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 14:05:43,358 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:05:43,358 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 14:05:50,258 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:05:50,258 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 14:05:51,205 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:05:51,205 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 14:05:52,009 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:05:52,009 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 14:07:35,603 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:07:35,603 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 14:07:41,505 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:07:41,505 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 14:07:49,043 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:07:49,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 14:09:23,981 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:09:23,981 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 14:09:31,581 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:09:31,581 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 14:09:39,220 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:09:39,220 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 14:10:08,172 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:10:08,172 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 14:10:15,779 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:10:15,779 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 14:14:13,347 INFO {POS} {IP-DISABLED} valid: 192.168.1.202:8091@default@DEFAULT_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1606544034404
+
+2020-11-28 14:14:28,355 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_false_false_default]
+
+2020-11-28 14:14:28,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 
+
+2020-11-28 14:14:39,525 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_true_false_default]
+
+2020-11-28 14:14:39,525 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 14:14:59,357 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:14:59,357 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 14:15:06,903 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:15:06,903 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 14:45:23,548 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_true_false_default]
+
+2020-11-28 14:45:23,550 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 14:47:29,381 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 14:56:22,069 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:56:22,069 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 14:56:49,680 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:56:49,680 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 14:57:01,731 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:57:01,731 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 14:57:25,193 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:57:25,194 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 14:57:35,552 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:57:35,552 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 14:57:43,452 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:57:43,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 14:57:49,078 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:57:49,078 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 14:59:58,697 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 14:59:58,697 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 15:00:07,685 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:00:07,685 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 15:00:12,633 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:00:12,633 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 15:00:21,532 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:00:21,532 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 15:13:24,911 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:13:24,911 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 15:13:32,991 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:13:32,991 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 15:13:33,391 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:13:33,392 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 15:13:39,169 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:13:39,169 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 15:13:43,603 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:13:43,604 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 15:13:49,336 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:13:49,337 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 15:14:49,340 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:14:49,340 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 15:14:55,532 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:14:55,532 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 15:23:22,596 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:23:22,596 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 15:23:27,862 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:23:27,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 15:23:36,761 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:23:36,762 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 15:23:45,598 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:23:45,598 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 15:23:48,084 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:23:48,084 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 15:23:56,742 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:23:56,742 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 15:25:38,490 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:25:38,491 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 15:25:41,312 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:25:41,312 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 15:25:44,574 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:25:44,574 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 15:25:45,353 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:25:45,353 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 15:25:51,357 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:25:51,357 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 15:25:53,620 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:25:53,620 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 15:34:45,940 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:34:45,940 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 15:34:51,312 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:34:51,312 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 15:34:52,516 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:34:52,516 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 15:34:54,942 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:34:54,942 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 15:49:15,047 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:49:15,047 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 15:50:05,485 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:50:05,485 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 15:51:45,372 INFO {POS} {IP-DISABLED} valid: 192.168.1.202:7999@DEFAULT@DEFAULT_GROUP@@client, region: unknown, msg: client timeout after 15000, last beat: 1606549888181
+
+2020-11-28 15:51:47,801 INFO service: DEFAULT_GROUP@@client {POS} {IP-ENABLED} valid: 192.168.1.202:7999@DEFAULT, region: unknown, msg: client beat ok
+
+2020-11-28 15:52:19,990 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:52:19,990 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 15:52:26,059 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 15:52:26,059 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 16:13:27,415 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:13:27,415 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 16:13:33,696 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:13:33,696 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 16:18:30,909 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:18:30,909 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 16:20:36,685 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:20:36,685 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 16:34:44,655 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:34:44,655 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 16:34:47,745 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:34:47,745 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 16:34:51,192 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:34:51,192 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 16:34:54,251 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:34:54,251 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 16:34:57,581 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:34:57,581 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 16:35:00,156 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:35:00,157 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 16:35:31,907 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:35:31,907 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 16:35:40,245 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:35:40,246 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 16:36:14,791 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:36:14,791 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 16:36:23,145 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:36:23,145 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 16:38:19,654 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:38:19,654 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 16:38:27,816 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:38:27,816 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 16:46:58,267 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:46:58,267 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 16:47:06,454 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:47:06,454 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 16:48:45,837 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 16:48:45,837 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 17:05:58,747 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:05:58,748 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 17:06:00,458 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:06:00,458 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 17:06:12,940 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:06:12,940 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 17:06:26,048 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:06:26,048 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 17:06:28,948 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:06:28,948 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 17:08:08,610 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:08:08,610 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 17:08:14,506 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:08:14,506 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 17:08:18,163 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:08:18,163 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 17:08:24,192 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:08:24,192 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 17:19:03,133 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:19:03,133 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 17:19:04,462 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:19:04,462 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 17:19:05,856 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:19:05,856 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 17:20:45,627 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:20:45,627 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 17:20:54,178 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:20:54,178 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 17:20:57,142 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:20:57,142 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 17:31:39,644 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:31:39,644 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 17:31:48,573 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:31:48,573 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 17:35:33,617 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:35:33,617 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 17:35:37,719 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:35:37,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 17:35:43,865 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:35:43,865 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 17:35:46,864 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:35:46,864 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 17:38:12,798 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:38:12,798 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 17:38:16,327 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:38:16,327 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 17:38:19,850 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:38:19,850 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 17:38:21,748 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:38:21,748 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 17:38:26,415 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:38:26,415 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 17:38:29,746 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:38:29,746 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 17:43:00,768 INFO {POS} {IP-DISABLED} valid: 192.168.1.202:8091@default@DEFAULT_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1606556565627
+
+2020-11-28 17:43:14,405 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_false,
+
+2020-11-28 17:43:19,394 INFO service: DEFAULT_GROUP@@seata-server {POS} {IP-ENABLED} valid: 192.168.1.202:8091@default, region: unknown, msg: client beat ok
+
+2020-11-28 17:44:56,386 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:44:56,389 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 17:44:56,392 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:44:56,392 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 17:44:59,277 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_true_false_default]
+
+2020-11-28 17:44:59,278 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 17:45:01,303 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:45:01,304 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 17:45:56,152 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_true_false_default]
+
+2020-11-28 17:45:56,154 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 17:46:07,729 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:46:07,729 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 17:46:17,186 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:46:17,186 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 17:46:21,217 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:46:21,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 17:47:30,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 17:48:55,914 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:48:55,914 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 17:48:59,997 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:48:59,997 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 17:49:07,928 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:49:07,928 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 17:49:11,104 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:49:11,105 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 17:49:38,283 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:49:38,283 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 17:49:42,294 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:49:42,294 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 17:49:49,551 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:49:49,551 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 17:49:52,559 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 17:49:52,559 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 18:21:02,362 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:21:02,362 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 18:21:10,720 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:21:10,720 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 18:21:14,530 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:21:14,530 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 18:21:22,667 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:21:22,667 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 18:22:42,774 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:22:42,774 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 18:22:51,075 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:22:51,076 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 18:28:11,873 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:28:11,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 18:28:20,258 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:28:20,258 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 18:28:59,049 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:28:59,049 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 18:29:07,700 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:29:07,700 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 18:29:41,427 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:29:41,427 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 18:29:48,991 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:29:48,991 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 18:30:04,113 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:30:04,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 18:30:07,807 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:30:07,807 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 18:30:14,282 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:30:14,282 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 18:30:17,321 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:30:17,322 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 18:33:52,975 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 18:35:27,474 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:35:27,474 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 18:35:36,243 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:35:36,244 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 18:43:43,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 192.168.1.202:8091_true,
+
+2020-11-28 18:48:28,130 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:48:28,130 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 18:48:30,467 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:48:30,467 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 
+
+2020-11-28 18:48:33,380 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:48:33,380 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 
+
+2020-11-28 18:48:36,931 INFO {POS} {IP-DISABLED} valid: 192.168.1.202:8091@default@DEFAULT_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1606560499032
+
+2020-11-28 18:48:37,898 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:48:37,898 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 18:48:40,582 INFO DEFAULT_GROUP@@server-1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7998:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:48:40,583 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-1, ips: 192.168.1.202:7998_true,
+
+2020-11-28 18:48:42,639 INFO DEFAULT_GROUP@@server-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7997:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:48:42,639 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@server-2, ips: 192.168.1.202:7997_true,
+
+2020-11-28 18:48:52,033 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.1.202:8091:unknown:default_1.0_false_false_default]
+
+2020-11-28 18:48:52,033 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 
+
+2020-11-28 18:51:11,440 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:51:11,440 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2020-11-28 18:51:19,321 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:51:19,321 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.202:7999_true,
+
+2020-11-28 18:55:55,160 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.202:7999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-28 18:55:55,160 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+

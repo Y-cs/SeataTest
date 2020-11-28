@@ -1,0 +1,34 @@
+2020-11-27 15:21:14,743 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2020-11-27 15:21:14,835 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2020-11-27 15:21:15,722 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2020-11-27 15:21:15,727 INFO The number of active nodes increment to 1.
+
+2020-11-27 15:21:16,055 INFO Starts FSMCaller successfully.
+
+2020-11-27 15:21:16,066 WARN No data for snapshot reader C:\Users\user\Desktop\nacos\data\protocol\raft\naming_persistent_service\snapshot.
+
+2020-11-27 15:21:16,088 INFO Node <naming_persistent_service/192.168.1.202:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.1.202:7848, oldConf=.
+
+2020-11-27 15:21:16,089 INFO Node <naming_persistent_service/192.168.1.202:7848> start vote and grant vote self, term=0.
+
+2020-11-27 15:21:16,115 INFO Save raft meta, path=C:\Users\user\Desktop\nacos\data\protocol\raft\naming_persistent_service\meta-data, term=1, votedFor=192.168.1.202:7848, cost time=18 ms
+
+2020-11-27 15:21:16,115 INFO Node <naming_persistent_service/192.168.1.202:7848> become leader of group, term=1, conf=192.168.1.202:7848, oldConf=.
+
+2020-11-27 15:21:16,119 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2020-11-27 15:21:16,122 WARN RPC server is not started in RaftGroupService.
+
+2020-11-27 15:21:16,122 INFO Start the RaftGroupService successfully.
+
+2020-11-27 15:21:16,131 INFO onLeaderStart: term=1.
+
+2020-11-27 15:42:43,668 INFO Deleting snapshot C:\Users\user\Desktop\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_1.
+
+2020-11-27 15:42:43,668 INFO Renaming C:\Users\user\Desktop\nacos\data\protocol\raft\naming_persistent_service\snapshot\temp to C:\Users\user\Desktop\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_1.
+
+2020-11-27 15:51:21,867 INFO Connection disconnected: /192.168.1.202:53310
+

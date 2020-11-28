@@ -1,0 +1,24 @@
+2020-11-28 11:32:01,791 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-11-28 11:32:01,797 WARN [serverlist] updated to : [Member{ip='192.168.1.202', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-11-28 11:32:09,536 INFO This node is ready to provide external services
+
+2020-11-28 14:45:03,254 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-11-28 14:45:03,258 WARN [serverlist] updated to : [Member{ip='192.168.1.202', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-11-28 14:45:08,865 INFO This node is ready to provide external services
+
+2020-11-28 17:44:50,266 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-11-28 17:44:50,269 WARN [serverlist] updated to : [Member{ip='192.168.1.202', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-11-28 17:44:55,903 INFO This node is ready to provide external services
+
+2020-11-28 17:45:43,882 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-11-28 17:45:43,886 WARN [serverlist] updated to : [Member{ip='192.168.1.202', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-11-28 17:45:49,561 INFO This node is ready to provide external services
+
